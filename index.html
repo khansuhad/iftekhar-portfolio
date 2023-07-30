@@ -42,9 +42,9 @@
       </script>
   </head>
   <body>
-    <header>
+    <header class="">
         <!-- navbar -->
-        <div  class="navbar bg-second_color px-[5%] rounded sticky top-0">
+        <div  class="navbar bg-second_color px-[5%] rounded fixed top-0">
             <div class="navbar-start">
               <div class="dropdown ">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -64,7 +64,7 @@
                 <div class="navbar-end hidden lg:flex font-bold ">
                     <ul class="menu menu-horizontal px-1 text-2xl text-black ">
                       <li class="mr-6"><a href="#Home"><i class="fa-solid fa-house" style="color: #04183a;"></i>Home</a></li>
-                      <li class="mr-6"><a><i class="fa-solid fa-user" style="color: #04183a;"></i>About </a></li>
+                      <li class="mr-6"><a href="#About"><i class="fa-solid fa-user" style="color: #04183a;"></i>About </a></li>
                       <li class="mr-6"><a><i class="fa-solid fa-shield" style="color: #04183a;"></i>Skills</a></li>
                       <li class="mr-6" ><a><i class="fa-solid fa-file-contract" style="color: #04183a;"></i>Contract
                       </a></li>
@@ -93,5 +93,24 @@
                 </div>
                 
     </header>
+    <!-- main -->
+    <main>
+          <div id="About"class="min-h-screen bg-first_color w-[100%] px-10 py-20">
+            <div class="flex items-center">
+              <h1 class="font-extrabold mb-4 text-5xl md:text-7xl lg:text-7xl ">About Me</h1>
+              <hr class="bg-[#8E8D8A] text-2xl h-3 w-[15%] rounded  ml-4">
+            </div>
+           <div class="items-center lg:flex ">
+            <div class=" md:mx-auto lg:w-[50%]">
+              <img src="images/aboutme.jpg" alt="" class="rounded ">
+            </div>
+            <div class="my-20 mx-auto lg:mx-20 lg:w-[50%] lg:py-0">
+                  <h1 class="font-extrabold text-5xl mb-4">Who am i ?</h1>
+                 <p class="font-medium text-3xl"> I am a skilled MERN stack developer with a passion for building dynamic web applications. A Bangladeshi web developer who has expertise in using MongoDB, Express.js, React, and Node.js to create robust, efficient, and scalable web applications. I enjoy solving complex problems and creating user-friendly interfaces that are both beautiful and intuitive.
+                  With a strong understanding of web development concepts such as RESTful APIs and MVC architecture, I am dedicated to deliver high-quality applications that meet the needs of my clients and users.</p>
+            </div>
+           </div>
+          </div>
+    </main>
   </body>
 </html>
