@@ -32,7 +32,7 @@ li{
     background-size: 100% 3px,0 3px;
     background-position:100% 100% , 0 100%;
     background-repeat:no-repeat;
-    transition: background-size 0.7s ;
+    transition: background-size 0.8s ;
 }
 li:hover{
     background-size: 0 3px , 100% 3px;
