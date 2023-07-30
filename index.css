@@ -1,22 +1,18 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'lato',sans-serif,arial;
+/* shared styles */
+* {
+    font-family: 'Dosis', sans-serif;
 }
-.container{
-    width: 100%;
-    height: 100vh;
-    background-image: url("image/12345.jpg");
-    background-size: cover;
-    background-position: static;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-between;
+.header-banner-hello{
+  
+    font-size: 7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
 }
-.nav-logo{
-    display: flex;
-}
-.nav-logo img{
-    width:200px;
-    height: 200px;
-}
+/* .btn-cv{
+ transition: 0.4s ease-in-out;
+} */

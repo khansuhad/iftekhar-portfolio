@@ -1,36 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Khan Suhad</title>
-    <link rel="shortcut icon" href="image/s.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap"rel="stylesheet">
-<script src="https://kit.fontawesome.com/cc655c6a9d.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="nav-logo">
-                    <img src="image/s.png" alt="khansuhad picture">
-                    <h1>Khan Suhad</h1>
-                </div>
-                <div class="nav-bar">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">skills</a>
-                    <a href="#">Blog</a>
-                </div>
-                <div class="social">
-                    <a href=""><i class="fa-brands fa-facebook" style="color: #903df5;"></i></a><a href=""><i class="fa-brands fa-instagram" style="color: #903df5;"></i></a><a href=""></a>
-                </div>
-            </div>
-        </nav>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <!-- taliwind and daisyui link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- font awasome link -->
+    <script src="https://kit.fontawesome.com/cc655c6a9d.js" crossorigin="anonymous"></script>
+    <!-- for universal -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                first_color: '#EAE7DC',
+                second_color: '#D8C3A5',
+                third_color: '#E98074',
+                fourth_color: '#E85A4F',
+                fifth_color: '#8E8D8A',
+              }
 
+            }
+          }
+        }
+      </script>
+  </head>
+  <body>
+    <header>
+        <!-- navbar -->
+        <div class="navbar bg-second_color px-[5%] rounded">
+            <div class="navbar-start">
+              <div class="dropdown ">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#D8C3A5] rounded-box w-52 ">
+                  <li><a><i class="fa-solid fa-house" style="color: #04183a;"></i>Home</a></li>
+                  <li><a><i class="fa-solid fa-user" style="color: #04183a;"></i>About </a></li>
+                  <li><a><i class="fa-solid fa-shield" style="color: #04183a;"></i>Skills</a></li>
+                  <li><a><i class="fa-solid fa-file-contract" style="color: #04183a;"></i>Contract</a></li>
+                </ul>
+              </div>
+              <img src="images/s.png" alt="logo" class="w-10 cursor-pointer">
+              <a class="btn btn-ghost normal-case text-4xl">KHAN SUHAD</a>
+            </div>
+            <!-- <div class="lg:flex lg:justify-end lg:border"> -->
+                <div class="navbar-end hidden lg:flex font-bold">
+                    <ul class="menu menu-horizontal px-1 text-2xl text-black">
+                      <li><a><i class="fa-solid fa-house" style="color: #04183a;"></i>Home</a></li>
+                      <li><a><i class="fa-solid fa-user" style="color: #04183a;"></i>About </a></li>
+                      <li><a><i class="fa-solid fa-shield" style="color: #04183a;"></i>Skills</a></li>
+                      <li><a><i class="fa-solid fa-file-contract" style="color: #04183a;"></i>Contract
+                      </a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- header banner section -->
+                <div class="min-h-screen bg-first_color ">
+                  <div class=" w-[95%] mx-auto flex-col pt-10 md:justify-center lg:min-h-screen flex lg:justify-between lg:px-40 lg:items-center lg:flex-row-reverse ">
+                    <img src="images/s.png" class="max-w-sm rounded-lg mb-0 md:mx-auto " />
+                    <div class=" mt-0 lg:w-[50%] ">
+                    
+                     <div class="text-center md:text-center lg:text-left">
+                      <h1 class="header-banner-hello ">HELLO</h1>
+                      <h1 class=" text-4xl font-extrabold md:text-5xl lg:text-7xl">SUHAD AHMOD KHAN</h1>
+                      <h1 class="text-2xl  font-bold md:text-4 lg:text-4xl"> junior MERN stack devoloper</h1>
+                     </div>
+
+                      <p class=" py-7 mx-auto font-semibold text-sm md:text-center md:text-lg md:w-[80%] lg:text-xl lg:text-left lg:mx-0">I'm a passionate and innovative junior MERN stack developer with a strong desire to build elegant and efficient web applications. My journey in the world of programming began with my curiosity for technology and problem-solving, and it quickly evolved into a fulfilling career in web development.</p>
+                      <div class="text-center lg:text-left">
+                        <button class="btn font-semibold bg-fourth_color text-first_color mr-5 hover:bg-first_color hover:border-fourth_color hover:text-fourth_color hover:duration-1000">Download CV</button>
+                        <button class="btn  font-semibold bg-fourth_color text-first_color hover:bg-first_color hover:border-fourth_color hover:text-fourth_color hover:duration-1000">Hire me</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
     </header>
-</body>
+  </body>
 </html>
