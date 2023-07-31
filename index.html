@@ -29,8 +29,8 @@
           theme: {
             extend: {
               colors: {
-                first_color: '#EAE7DC',
-                second_color: '#D8C3A5',
+                first_color: '#DDE6ED',
+                second_color: '#93BFCF',
                 third_color: '#E98074',
                 fourth_color: '#E85A4F',
                 fifth_color: '#8E8D8A',
@@ -42,7 +42,7 @@
       </script>
   </head>
   <body>
-    <header class="">
+    <header class="hidden">
         <!-- navbar -->
         <div  class="navbar bg-second_color px-[5%] rounded fixed top-0">
             <div class="navbar-start">
@@ -50,7 +50,7 @@
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3  z-[1] p-2 shadow bg-[#D8C3A5] rounded-box w-52 ">
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3  z-[1] p-2 shadow bg-second_color rounded-box w-52 ">
                   <li><a><i class="fa-solid fa-house" style="color: #04183a;"></i>Home</a></li>
                   <li><a><i class="fa-solid fa-user" style="color: #04183a;"></i>About </a></li>
                   <li><a><i class="fa-solid fa-shield" style="color: #04183a;"></i>Skills</a></li>
@@ -72,7 +72,7 @@
                   </div>
                 </div>
                 <!-- header banner section -->
-                <div id="Home" class="min-h-screen bg-first_color ">
+                <div id="Home" class="min-h-screen bg-[#9DB2BF] ">
                   <div class=" w-[95%] mx-auto flex-col  md:justify-center lg:min-h-screen flex lg:justify-between lg:px-40 lg:items-center lg:flex-row-reverse ">
                     <img src="images/s.png" class="max-w-sm rounded-lg mb-0 pt-20 md:mx-auto  lg:pt-0" />
                     <div class=" mt-0 lg:w-[50%] ">
@@ -95,22 +95,90 @@
     </header>
     <!-- main -->
     <main>
-          <div id="About"class="min-h-screen bg-first_color w-[100%] px-10 py-20">
+          <div id="About"class=" bg-first_color mt-10 w-[95%]  lg:w-[80%] mx-auto px-10 py-20 rounded lg:h-screen hidden">
             <div class="flex items-center">
               <h1 class="font-extrabold mb-4 text-5xl md:text-7xl lg:text-7xl ">About Me</h1>
               <hr class="bg-[#8E8D8A] text-2xl h-3 w-[15%] rounded  ml-4">
             </div>
-           <div class="items-center lg:flex ">
-            <div class=" md:mx-auto lg:w-[50%]">
-              <img src="images/aboutme.jpg" alt="" class="rounded ">
+           <div class="items-start lg:flex ">
+            <div class=" md:mx-auto lg:w-[50%] lg:h-screen">
+              <img src="images/aboutm.JPG" alt="" class="rounded lg:h-1/2 mx-auto">
             </div>
-            <div class="my-20 mx-auto lg:mx-20 lg:w-[50%] lg:py-0">
+            <div class=" mx-auto lg:mx-20 lg:w-[50%] lg:py-0 ">
                   <h1 class="font-extrabold text-5xl mb-4">Who am i ?</h1>
                  <p class="font-medium text-3xl"> I am a skilled MERN stack developer with a passion for building dynamic web applications. A Bangladeshi web developer who has expertise in using MongoDB, Express.js, React, and Node.js to create robust, efficient, and scalable web applications. I enjoy solving complex problems and creating user-friendly interfaces that are both beautiful and intuitive.
                   With a strong understanding of web development concepts such as RESTful APIs and MVC architecture, I am dedicated to deliver high-quality applications that meet the needs of my clients and users.</p>
             </div>
            </div>
           </div>
+          <div class=" flex flex-col gap-3 bg-[#9DB2BF] w-[95%] mx-auto lg:w-[84%] lg:mx-auto lg:text-center lg:justify-center lg:my-10">
+            <h1 class="font-bold text-4xl text-[#fff] bg-third_color rounded text-center">My Skills</h1>
+            <div class="pt-10 mx-auto">
+              <div class="flex gap-36  md:gap-60 lg:gap-96 lg:justify-center">
+                <h1 class="font-bold text-xl md:text-3xl :lg:text-4xl text-[#fff] bg-third_color rounded">HTML</h1>
+                <h1 class="font-bold text-lg md:text-2xl lg:text-3xl text-[#04183a] ">senior</h1>
+              </div>
+              <div>
+                <progress class="progress md:mx-auto w-[100%] h-3" value="75" max="100"></progress>
+              </div>
+            </div>
+            <div class="pt-10 mx-auto">
+              <div class="flex gap-36  md:gap-60 lg:gap-96 lg:justify-center">
+                <h1 class="font-bold text-xl md:text-3xl :lg:text-4xl text-[#fff] bg-third_color rounded">CSS</h1>
+                <h1 class="font-bold text-lg md:text-2xl lg:text-3xl text-[#04183a] ">senior</h1>
+              </div>
+              <div>
+                <progress class="progress md:mx-auto w-[100%] h-3" value="75" max="100"></progress>
+              </div>
+            </div>
+            <div class="pt-10 mx-auto">
+              <div class="flex gap-36  md:gap-60 lg:gap-96 lg:justify-center">
+                <h1 class="font-bold text-xl md:text-3xl :lg:text-4xl text-[#fff] bg-third_color rounded">Tailwind CSS</h1>
+                <h1 class="font-bold text-lg md:text-2xl lg:text-3xl text-[#04183a] ">intermediate</h1>
+              </div>
+              <div>
+                <progress class="progress md:mx-auto w-[100%] h-3" value="75" max="100"></progress>
+              </div>
+            </div>
+            <div class="pt-10 mx-auto">
+              <div class="flex gap-36  md:gap-60 lg:gap-96 lg:justify-center">
+                <h1 class="font-bold text-xl md:text-3xl :lg:text-4xl text-[#fff] bg-third_color rounded">Javascript</h1>
+                <h1 class="font-bold text-lg md:text-2xl lg:text-3xl text-[#04183a] ">junior</h1>
+              </div>
+              <div>
+                <progress class="progress md:mx-auto w-[100%] h-3" value="75" max="100"></progress>
+              </div>
+            </div>
+            <div class="pt-10 mx-auto">
+              <div class="flex gap-36  md:gap-60 lg:gap-96 lg:justify-center">
+                <h1 class="font-bold text-xl md:text-3xl :lg:text-4xl text-[#fff] bg-third_color rounded">React js</h1>
+                <h1 class="font-bold text-lg md:text-2xl lg:text-3xl text-[#04183a] ">junior</h1>
+              </div>
+              <div>
+                <progress class="progress md:mx-auto w-[100%] h-3" value="75" max="100"></progress>
+              </div>
+            </div>
+            <div class="pt-10 mx-auto">
+              <div class="flex gap-28  md:gap-60 lg:gap-96 lg:justify-center">
+                <h1 class="font-bold text-xl md:text-3xl :lg:text-4xl text-[#fff] bg-third_color rounded">C Languague</h1>
+                <h1 class="font-bold text-lg md:text-2xl lg:text-3xl text-[#04183a] ">intermediate</h1>
+              </div>
+            
+                <progress class="progress md:mx-auto w-[100%] h-3" value="75" max="100"></progress>
+              
+            </div>
+            <div class="pt-10 mx-auto">
+              <div class="flex gap-36  md:gap-60 lg:gap-96 lg:justify-center">
+                <h1 class="font-bold text-xl md:text-3xl :lg:text-4xl text-[#fff] bg-third_color rounded">HTML</h1>
+                <h1 class="font-bold text-lg md:text-2xl lg:text-3xl text-[#04183a] ">senior</h1>
+              </div>
+              <div>
+                <progress class="progress md:mx-auto w-[100%] h-3" value="75" max="100"></progress>
+              </div>
+            </div>
+           </div>
+
+          
     </main>
   </body>
 </html>
