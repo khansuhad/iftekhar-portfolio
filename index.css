@@ -2,6 +2,9 @@
 * {
     font-family: 'Dosis', sans-serif;
 }
+.button-icon:hover{
+    color: #4942E4;
+}
 .header-banner-hello{
   
     font-size: 7rem;
