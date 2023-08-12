@@ -30,9 +30,9 @@
             extend: {
               colors: {
                 first_color: '#DDE6ED',
-                second_color: '#93BFCF',
+                second_color: '#8696FE',
                 third_color: '#E98074',
-                fourth_color: '#E85A4F',
+                fourth_color: '#4942E4',
                 fifth_color: '#8E8D8A',
               }
 
@@ -42,7 +42,7 @@
       </script>
   </head>
   <body>
-    <header class="">
+    <header >
         <!-- navbar -->
         <div  class="navbar bg-second_color px-[5%] rounded fixed top-0 z-40">
             <div class="navbar-start">
@@ -51,8 +51,8 @@
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3  z-[1] p-2 shadow bg-second_color rounded-box w-52 ">
-                  <li><a><i class="fa-solid fa-house" style="color: #04183a;"></i>Home</a></li>
-                  <li><a><i class="fa-solid fa-user" style="color: #04183a;"></i>About </a></li>
+                  <li><a href="#Home"><i class="fa-solid fa-house" style="color: #04183a;"></i>Home</a></li>
+                  <li><a href="#About"><i class="fa-solid fa-user" style="color: #04183a;"></i>About </a></li>
                   <li><a><i class="fa-solid fa-shield" style="color: #04183a;"></i>Skills</a></li>
                   <li><a><i class="fa-solid fa-file-contract" style="color: #04183a;"></i>Contract</a></li>
                 </ul>
@@ -72,7 +72,7 @@
                   </div>
                 </div>
                 <!-- header banner section -->
-                <div id="Home" class="min-h-screen bg-[#9DB2BF] ">
+                <div id="Home" class="min-h-screen bg-[#ffffff] ">
                   <div class=" w-[95%] mx-auto flex-col  md:justify-center lg:min-h-screen flex lg:justify-between lg:px-40 lg:items-center lg:flex-row-reverse ">
                     <img src="images/s.png" class="max-w-sm rounded-lg mb-0 pt-20 md:mx-auto  lg:pt-0" />
                     <div class=" mt-0 lg:w-[50%] ">
@@ -80,13 +80,13 @@
                      <div class="text-center md:text-center lg:text-left">
                       <h1 class="header-banner-hello ">HELLO</h1>
                       <h1 class=" text-4xl font-extrabold md:text-5xl lg:text-7xl">SUHAD AHMOD KHAN</h1>
-                      <h1 class="text-2xl  font-bold md:text-4 lg:text-4xl"> junior MERN stack devoloper</h1>
+                      <h1 class="text-2xl  font-bold md:text-4 lg:text-4xl"> junior web devoloper</h1>
                      </div>
 
                       <p class=" py-7 mx-auto font-semibold text-sm md:text-center md:text-lg md:w-[80%] lg:text-xl lg:text-left lg:mx-0">I'm a passionate and innovative junior MERN stack developer with a strong desire to build elegant and efficient web applications. My journey in the world of programming began with my curiosity for technology and problem-solving, and it quickly evolved into a fulfilling career in web development.</p>
                       <div class="text-center lg:text-left">
-                        <button class="btn font-semibold bg-fourth_color text-first_color mr-5 hover:bg-first_color hover:border-fourth_color hover:text-fourth_color hover:duration-1000">Download CV</button>
-                        <button class="btn  font-semibold bg-fourth_color text-first_color hover:bg-first_color hover:border-fourth_color hover:text-fourth_color hover:duration-1000">Hire me</button>
+                        <button class="btn font-semibold bg-fourth_color text-first_color mr-5 hover:bg-first_color hover:border-fourth_color hover:text-fourth_color hover:duration-1000 hover:font-extrabold " >Download CV</button>
+                        <button class="btn  font-semibold bg-fourth_color text-first_color hover:bg-first_color hover:border-fourth_color hover:text-fourth_color hover:duration-1000 hover:font-extrabold">Hire me</button>
                       </div>
                     </div>
                   </div>
@@ -96,10 +96,10 @@
     <!-- main -->
     <main>
       <!-- About section -->
-          <div id="About"class=" bg-first_color mt-10 w-[95%]  lg:w-[80%] mx-auto px-10 py-20 rounded lg:h-screen ">
-            <div class="flex items-center">
-              <h1 class="font-extrabold mb-4 text-5xl md:text-7xl lg:text-7xl ">About Me</h1>
-              <hr class="bg-[#8E8D8A] text-2xl h-3 w-[15%] rounded  ml-4">
+          <div id="About"class="  mt-10 w-[95%]  lg:w-[80%] mx-auto px-10 py-20 rounded lg:h-screen ">
+            <div class="flex items-center justify-center">
+              <h1 class="font-extrabold mb-4  text-5xl md:text-7xl lg:text-7xl ">About Me</h1>
+              <hr class="bg-second_color text-2xl h-3 w-[15%] rounded  ml-4">
             </div>
            <div class="items-start lg:flex ">
             <div class=" md:mx-auto lg:w-[50%] lg:h-screen">
@@ -185,9 +185,9 @@
             <h1 class="font-extrabold mb-4 text-5xl md:text-7xl lg:text-7xl">Contract Me</h1>
           <p class="font-lg text-3xl">You can send me an email through this form or you can directly contact me through those links. I’m less active on social media so try to send me an email.</p>
           </div>
-          <div class="flex justify-center mt-14">
-            <div class="w-1/2  ">
-              <div class="  bg-[#9DB2BF] w-1/2 text-center rounded mb-2 ">
+          <div class="flex justify-between mt-14  mx-auto gap-24 hidden ">
+            <div class=" flex-1">
+              <div class="  bg-[#9DB2BF]  text-center rounded mb-2 ">
                 <div class="flex items-center justify-center gap-3 text-4xl font-bold">
                   <i class="fa-solid fa-at " style="color: #26519c;"></i>
                   <h1 class="">E-mail</h1>
@@ -196,7 +196,7 @@
                   <h1>suhadahmodkhan@gmail.com</h1>
                 </div>
               </div>
-              <div class="  bg-[#9DB2BF] w-1/2 text-center rounded mb-2">
+              <div class="  bg-[#9DB2BF]  text-center rounded mb-2">
                 <div class="flex items-center justify-center gap-3 text-4xl font-bold">
                   <i class="fa-solid fa-location-dot" style="color: #26519c;"></i>
                   <h1 class="">Address</h1>
@@ -205,7 +205,7 @@
                   <h1>Moulvibazar, Sylhet, Bangladesh</h1>
                 </div>
               </div>
-              <div class="  bg-[#9DB2BF] w-1/2 text-center rounded mb-2">
+              <div class="  bg-[#9DB2BF] text-center rounded mb-2">
                 <div class="flex items-center justify-center gap-3 text-4xl font-bold">
                 
                   <i class="fa-solid fa-phone" style="color: #26519c;"></i>
@@ -216,11 +216,14 @@
                 </div>
               </div>
           </div>
-            <div class="flex flex-col gap-4 ">
-              <input type="text" placeholder="Type here" class="input input-bordered w-[60%] " />
+            <div class="flex flex-col gap-4 flex-1 m-10">
+
+              <input type="text" placeholder="Type here" class="input input-bordered " />
+              <input type="text" placeholder="Type here" class="input input-bordered w-2/4 " />
               <input type="text" placeholder="Type here" class="input input-bordered w-full " />
-              <input type="text" placeholder="Type here" class="input input-bordered w-full " />
-              <textarea class="textarea textarea-bordered" placeholder="Bio"></textarea>
+              <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs" />
+              <textarea cols="10" rows="6" class="textarea textarea-bordered" placeholder="Bio"></textarea>
+            
             </div>
           
          </div>
