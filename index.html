@@ -575,38 +575,42 @@
             </div>
           </div>
 
-          <form >
+          <form 
+          action="https://formspree.io/f/xoqowrar"
+          method="POST">
+            
             <div class="flex flex-col gap-4 flex-1 m-10">
               <div class="flex gap-8">
-                <input
-                  type="text"
-                  placeholder="Name"
-                  class="input hover:border-second_color font-bold placeholder-secondary bg-sixth_color w-3/4"
-                />
-                <input
-                  id="comment-email"
-                  type="text"
-                  placeholder="Email"
-                  class="input hover:border-second_color font-bold placeholder-secondary bg-sixth_color w-3/4"
-                />
-              </div>
-
+             <label for="">
               <input
-                type="text"
-                placeholder="Project"
-                class="input hover:border-second_color font-bold placeholder-secondary bg-sixth_color w-full"
-              />
+              type="text"
+              placeholder="Name"
+              class="input hover:border-second_color font-bold placeholder-secondary bg-sixth_color w-3/4"
+            />
+            <input
+              id="comment-email"
+              type="text"
+              placeholder="Email"
+              class="input hover:border-second_color font-bold placeholder-secondary bg-sixth_color w-3/4"
+            />
+          </div>
+             </label>
+           <label for="">   <input
+            type="text"
+            placeholder="Project"
+            class="input hover:border-second_color font-bold placeholder-secondary bg-sixth_color w-full"
+          /></label>
               <textarea
                 cols="10"
                 rows="6"
                 class="textarea hover:border-second_color font-bold placeholder-secondary bg-sixth_color"
                 placeholder="Message"
               ></textarea>
-              <button 
-                class="btn btn-active font-bold text-first_color bg-second_color hover:bg-first_color hover:border-second_color hover:text-fourth_color hover:outline-1 w-1/2 md:w-2/6 lg:w-4/12"
-              >
-                Send Message<i class="fa-solid fa-paper-plane"></i>
-              </button>
+            <label for="">  <button 
+              class="btn btn-active font-bold text-first_color bg-second_color hover:bg-first_color hover:border-second_color hover:text-fourth_color hover:outline-1 w-1/2 md:w-2/6 lg:w-4/12"
+            >
+              Send Message<i class="fa-solid fa-paper-plane"></i>
+            </button></label>
             </div>
           </form>
         </div>
